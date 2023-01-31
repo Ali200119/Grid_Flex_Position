@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b7b5b5;
+}
+
+main {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 20%;
+}
+
+.card .up {
+    position: relative;
+    height: 400px;
+    background-color: #42515a;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 150px;
+}
+
+.card .down {
+    background-color: #c74285;
+    height: 20%;
+    padding-top: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card .down h3 {
+    color: white;
+    font-weight: unset;
+    text-align: center;
+}
+
+.card .up .image-area {
+    display: flex;
+    justify-content: center;
+}
+
+.card .up .image-area .image-border {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    border: 6px solid #c74285;
+    padding-top: 8px;
+    position: absolute;
+    top: -90px;
+}
+
+.card .up .image-area .image-border i {
+    font-size: 130px;
+}
+
+.card .up h1 {
+    color: #c74285;
+    text-align: center;
+}
+
+.card .up h3 {
+    margin-top: 10px;
+    color: #b6bdba;
+    text-align: center;
+}
+
+.card .up h4 {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card .up .social {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .up .social a {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background-color: #c74285;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+.card .up .social a i {
+    font-size: 30px;
+    color: white;
+}
